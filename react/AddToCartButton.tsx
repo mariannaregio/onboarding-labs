@@ -1,3 +1,3 @@
-import AddToCartButton from "./components/AddToCartButton";
+import AddToCartButton from "./components/AddToCart";
 
 export default AddToCartButton

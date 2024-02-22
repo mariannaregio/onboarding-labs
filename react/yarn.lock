@@ -1880,9 +1880,9 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-"avantivtexio.react-app-templates@https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708615780/public/@types/avantivtexio.react-app-templates":
+"avantivtexio.react-app-templates@https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708633675/public/@types/avantivtexio.react-app-templates":
   version "0.0.0"
-  resolved "https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708615780/public/@types/avantivtexio.react-app-templates#d28e49f587aca90cd5c15362cf48e79feac8ccfd"
+  resolved "https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708633675/public/@types/avantivtexio.react-app-templates#93368fa1664b007d75b61c3fd3546fc3bbb4cba0"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -5340,6 +5340,10 @@ verror@1.10.0:
     assert-plus "^1.0.0"
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
+
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
+  version "0.4.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles#8c45c6decf9acd2b944e07261686decff93d6422"
 
 "vtex.order-items@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-items@0.13.23/public/@types/vtex.order-items":
   version "0.13.23"
