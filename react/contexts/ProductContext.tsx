@@ -16,13 +16,15 @@ let newPrice = 0
 
 
 const calculateDiscount = (price:number, discount: number) => {
-    const priceWithDiscount =  discount * price
+    const discountValue =  discount * price
+
+    const priceWithDiscount = price - discountValue
 
     return priceWithDiscount
 }
 
 if (typeof totalPrice === 'number') {
-   newPrice = calculateDiscount(totalPrice, 0.5)
+   newPrice = calculateDiscount(totalPrice, 0.05)
 }
 
 

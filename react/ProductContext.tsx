@@ -1,3 +1,3 @@
-import ProductContext from "./components/ProductContext"
+import ProductContext from "./contexts/ProductContext"
 
 export default ProductContext

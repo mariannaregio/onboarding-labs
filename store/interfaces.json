@@ -9,5 +9,11 @@
 
   "order-form-context": {
     "component": "OrderFormContext"
+  },
+  "order-items-context": {
+    "component": "OrderItemsContext"
+  },
+  "add-to-cart-custom": {
+    "component": "AddToCartButton"
   }
 }
