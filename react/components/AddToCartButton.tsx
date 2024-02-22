@@ -1,30 +1,33 @@
 import React, {useState, MouseEvent, MouseEventHandler} from 'react'
- //import { OrderItems } from 'vtex.order-items'
- import { useProduct } from 'vtex.product-context'
-
-const addTocart: MouseEventHandler<HTMLButtonElement> = (event:  MouseEvent<HTMLButtonElement>) => {
-  event.preventDefault()
-  event.stopPropagation()
-  // const {addItems} = OrderItems.useOrderItems()
-   const productContext = useProduct()
-   const selectedItem = productContext?.selectedItem
-
-  //  const item = {
-  //    id: selectedItem?.itemId,
-  //    quantity: 1,
-  //    seller: selectedItem?.sellers[0].sellerId
-  //  }
+import { OrderItems } from 'vtex.order-items'
+import { useProduct } from 'vtex.product-context'
 
 
-  console.log(selectedItem?.itemId + ", " +  selectedItem?.sellers[0].sellerId)
-  console.log("clcique")
-  //addItems([item])
-  console.log("clicou")
-
- }
 
 const AddToCartButton = () => {
   const [quantity, setQuantidade] = useState(0);
+  const {addItems} = OrderItems.useOrderItems()
+  const productContext = useProduct()
+
+  const addTocart: MouseEventHandler<HTMLButtonElement> = (event:  MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault()
+    event.stopPropagation()
+
+     const selectedItem = productContext?.selectedItem
+
+
+       const item = {
+         id: selectedItem?.itemId,
+         quantity: quantity,
+         seller: selectedItem?.sellers[0].sellerId
+       }
+
+
+     console.log(selectedItem?.itemId + ", " +  selectedItem?.sellers[0].sellerId)
+     console.log(item)
+     addItems([item])
+
+   }
 
 
   const decrease = () => {
