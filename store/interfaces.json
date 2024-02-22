@@ -1,0 +1,13 @@
+{
+  "authentication": {
+    "component": "Authentication"
+  },
+
+  "prod-context": {
+    "component": "ProductContext"
+  },
+
+  "order-form-context": {
+    "component": "OrderFormContext"
+  }
+}
