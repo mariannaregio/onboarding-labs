@@ -1880,9 +1880,9 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-"avantivtexio.react-app-templates@https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708633675/public/@types/avantivtexio.react-app-templates":
+"avantivtexio.react-app-templates@https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708713344/public/@types/avantivtexio.react-app-templates":
   version "0.0.0"
-  resolved "https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708633675/public/@types/avantivtexio.react-app-templates#93368fa1664b007d75b61c3fd3546fc3bbb4cba0"
+  resolved "https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1708713344/public/@types/avantivtexio.react-app-templates#2ef3b0926df0f38efa5431dc1576c3752fa055d5"
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -5364,6 +5364,10 @@ verror@1.10.0:
 "vtex.session-client@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client":
   version "1.0.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client#239ac9935a59699e62e1509f844de81544ed0877"
+
+"vtex.slider-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.4/public/@types/vtex.slider-layout":
+  version "0.24.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.4/public/@types/vtex.slider-layout#81731b60025929589adeea1ffd3e12eb1d9480e1"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

@@ -9,16 +9,17 @@ const AddToCart = () => {
   const [quantity, setQuantity] = useState(1);
   const { addItems } = OrderItems.useOrderItems()
   const productContext = useProduct()
+  const selectedItem = productContext?.selectedItem
 
   const addToCart: MouseEventHandler<HTMLButtonElement> = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault()
     event.stopPropagation()
 
-    const selectedItem = productContext?.selectedItem
     const item = {
       id: selectedItem?.itemId,
       quantity: quantity,
-      seller: selectedItem?.sellers[0].sellerId
+      seller: selectedItem?.sellers[0].sellerId,
+      price: selectedItem?.sellers[0].commertialOffer.Price
     }
     addItems([item])
   }

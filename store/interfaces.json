@@ -15,5 +15,8 @@
   },
   "add-to-cart-custom": {
     "component": "AddToCartButton"
+  },
+  "shelf-custom": {
+    "component": "MyShelf"
   }
 }

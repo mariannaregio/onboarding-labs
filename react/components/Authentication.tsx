@@ -4,14 +4,13 @@
 
  export default function Authentication() {
 
-   const { navigate, route, binding   } = useRuntime()
+   const { navigate, route   } = useRuntime()
    const { session } = useRenderSession()
 
 
   // @ts-ignore
    const user = session?.namespaces?.profile?.isAuthenticated?.value
    console.log( typeof user)
-   console.log(binding?.canonicalBaseAddress)
 
    if (user == "false" && route.id === "store.home") {
      navigate({
