@@ -11,6 +11,7 @@
     "store": "0.x"
   },
   "dependencies": {
+    "vtex.styleguide": "9.x",
     "vtex.session-client": "1.x",
     "vtex.product-context": "0.x",
     "vtex.order-manager": "0.x",

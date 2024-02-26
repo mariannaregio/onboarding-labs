@@ -18,5 +18,13 @@
   },
   "shelf-custom": {
     "component": "MyShelf"
+  },
+
+  "countdown": {
+    "component": "Countdown"
+  },
+
+  "hello-data": {
+    "component": "HelloData"
   }
 }

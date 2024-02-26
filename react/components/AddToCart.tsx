@@ -4,6 +4,7 @@ import { useProduct } from 'vtex.product-context'
 import { useCssHandles } from 'vtex.css-handles'
 import { CSS_HANDLES } from '../handles/classes'
 
+
 const AddToCart = () => {
   const handles = useCssHandles(CSS_HANDLES)
   const [quantity, setQuantity] = useState(1);
@@ -34,6 +35,7 @@ const AddToCart = () => {
   };
 
   return (
+
     <div className={`${handles.container}`}>
 
       <div className={`${handles.input_container}`}>
