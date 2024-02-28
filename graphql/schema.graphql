@@ -1,0 +1,19 @@
+type Mutation {
+  saveNewsletter(name: String, age: Int, email: String): SaveNewsletterResponse
+}
+
+type SaveNewsletterResponse {
+  DocumentId: String
+  Id: String
+  Href: String
+}
+
+type Query {
+  getNewsletter(id: String): NewsletterResponse
+}
+
+type NewsletterResponse {
+  name: String
+  email: String
+  age: Int
+}

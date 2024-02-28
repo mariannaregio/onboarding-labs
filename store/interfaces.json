@@ -24,7 +24,11 @@
     "component": "Countdown"
   },
 
-  "hello-data": {
-    "component": "HelloData"
+  "product-similar": {
+    "component": "ProductSimilars"
+  },
+
+  "newsletter-modal": {
+    "component": "Newsletter"
   }
 }

@@ -1,0 +1,9 @@
+ mutation saveNewsletter($name: String, $age: Int, $email: String) {
+   saveNewsletter(name: $name, age: $age, email: $email) {
+      DocumentId
+      Id
+      Href
+     }
+   }
+
+//Aqui passo os parametros

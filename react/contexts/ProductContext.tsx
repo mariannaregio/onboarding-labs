@@ -6,7 +6,7 @@ const ProductContext = () => {
 
   const ProductContext = useProduct();
 
-  console.log('product', ProductContext)
+  //console.log('product', ProductContext)
 
   const product = ProductContext?.product
 
