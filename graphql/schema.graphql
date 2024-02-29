@@ -1,5 +1,5 @@
 type Mutation {
-  saveNewsletter(name: String, age: Int, email: String): SaveNewsletterResponse
+  saveNewsletter(email: String, preferences: [String]): SaveNewsletterResponse
 }
 
 type SaveNewsletterResponse {
@@ -13,7 +13,6 @@ type Query {
 }
 
 type NewsletterResponse {
-  name: String
   email: String
-  age: Int
+  preferences: [String]
 }

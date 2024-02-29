@@ -1,0 +1,6 @@
+ query getNewsletter($id: String) {
+   getNewsletter(id: $id) {
+      email
+      preferences
+     }
+   }

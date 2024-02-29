@@ -12,17 +12,20 @@ const Newsletter: React.FC = () => {
   const [preferences, setPreferences] = useState<string[]>([]);
   const [saveNewsletterMutation, saveNewsletterMutationResponse] = useMutation(SAVE_NEWSLETTER, {
     variables: {
-      email: "teste@email.com",
-      name: "Marianna",
-      age: 20
+      email: email,
+      preferences: preferences
     }
   })
 
   useEffect(() => {
+    console.log(saveNewsletterMutationResponse)
     if(saveNewsletterMutationResponse?.data) {
       console.log('resp', saveNewsletterMutationResponse.data)
+    } else {
+      console.log("erro")
     }
   }, [saveNewsletterMutationResponse])
+
 
 
   function handleNewsletter(event: React.MouseEvent<HTMLButtonElement, MouseEvent>) {
@@ -52,8 +55,9 @@ const Newsletter: React.FC = () => {
     { label: 'Finanças', value: 'financas' }
 ];
 
-const seeOptions = () => {
+const viewOptions = () => {
   saveNewsletterMutation()
+
 }
 
   return (
@@ -90,7 +94,7 @@ const seeOptions = () => {
                     </div>
                 ))}
             </div>
-            <Button onClick={seeOptions}>Enviar</Button>
+            <Button onClick={viewOptions}>Enviar</Button>
 
       </Modal>
 

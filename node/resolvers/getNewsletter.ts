@@ -1,12 +1,11 @@
 export async function getNewsletter(_:unknown, props: any, ctx: Context) {
   try {
     const result = await ctx.clients.masterdata.getDocument({
-      dataEntity: "mariannaTeste",
+      dataEntity: "appNewsletter",
       id: props.id,
       fields: [
-        "name",
         "email",
-        "age"
+        "preferences"
       ]
     })
     return result
