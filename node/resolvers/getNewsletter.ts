@@ -27,8 +27,9 @@
 export async function getNewsletter( _: unknown,  _props: any, ctx: Context
 ) {
   try{
-    const res: any = await ctx.clients.data.getNewsletter()
+    const res: any = await ctx.clients.data.getNewsletterData()
     const items = await res.data.map((data: { email: string, preferences: [string] }) => data)
+    console.log('items', items)
     return items
   } catch(error){
     console.log(error)
