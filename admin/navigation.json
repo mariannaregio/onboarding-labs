@@ -1,0 +1,6 @@
+{
+  "section": "orders",
+  "titleID": "admin-example.navigation.label",
+  "path": "/admin/emailsNewsletter",
+  "searchKeyWordsHelpers": "admin-example.navigation.search.kws"
+}

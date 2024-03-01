@@ -1,0 +1,6 @@
+{
+  "admin.app.example": {
+    "component": "Example",
+    "path": "/admin/app/emailsNewsletter"
+  }
+}

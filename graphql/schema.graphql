@@ -9,7 +9,7 @@ type SaveNewsletterResponse {
 }
 
 type Query {
-  getNewsletter(id: String): NewsletterResponse
+  getNewsletter: [NewsletterResponse]
 }
 
 type NewsletterResponse {

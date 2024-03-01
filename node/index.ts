@@ -1,27 +1,28 @@
+/* eslint-disable import/order */
+/* eslint-disable prettier/prettier */
 import { saveNewsletter } from './resolvers/saveNewsletter'
 import { getNewsletter } from './resolvers/getNewsletter'
+import{ Clients } from "./clients/index"
 
 import type {
-  IOClients,
   ParamsContext,
   ServiceContext,
   RecorderState,
 } from '@vtex/api'
 import { Service } from '@vtex/api'
 
-
 const TREE_SECONDS_MS = 3 * 1000
 const CONCURRENCY = 10
 
 declare global {
-  type Context = ServiceContext<IOClients, State>
+  type Context = ServiceContext<Clients, State>
 
   interface State extends RecorderState {
     code: number
   }
 }
 
-export default new Service<IOClients, State, ParamsContext>({
+export default new Service<Clients, State, ParamsContext>({
   clients: {
     options: {
       events: {

@@ -1,5 +1,5 @@
- query getNewsletter($id: String) {
-   getNewsletter(id: $id) {
+ query getNewsletter{
+   getNewsletter {
       email
       preferences
      }
