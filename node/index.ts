@@ -15,14 +15,10 @@ const TREE_SECONDS_MS = 3 * 1000
 const CONCURRENCY = 10
 
 declare global {
-  type Context = ServiceContext<Clients, State>
-
-  interface State extends RecorderState {
-    code: number
-  }
+  type Context = ServiceContext<Clients>
 }
 
-export default new Service<Clients, State, ParamsContext>({
+export default new Service<Clients, RecorderState, ParamsContext>({
   clients: {
     options: {
       events: {
