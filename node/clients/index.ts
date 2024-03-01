@@ -1,10 +1,10 @@
 /* eslint-disable prettier/prettier */
-import { IOClients } from '@vtex/api'
+import { IOClients } from "@vtex/api";
 
-import { Data } from './data'
+import { Data } from "./data";
 
 export class Clients extends IOClients {
-public get data() {
-  return this.getOrSet('data', Data)
-}
+  public get data() {
+    return this.getOrSet("data", Data);
+  }
 }

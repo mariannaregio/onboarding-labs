@@ -2,7 +2,6 @@
 import { MasterData  } from "@vtex/api";
 
 export class Data extends MasterData {
-
   public async getNewsletterData() {
     return this.searchDocumentsWithPaginationInfo({
         dataEntity: 'appNewsletter',

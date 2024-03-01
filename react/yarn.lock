@@ -2035,10 +2035,6 @@ available-typed-arrays@^1.0.6, available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-"avantivtexio.react-app-templates@https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1709235408/public/@types/avantivtexio.react-app-templates":
-  version "0.0.0"
-  resolved "https://mariannaregio--avantivtexio.myvtex.com/_v/private/typings/linked/v1/avantivtexio.react-app-templates@0.0.0+build1709235408/public/@types/avantivtexio.react-app-templates#4cb5535af44edad0545a062bd036f0883371fc15"
-
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz"
@@ -6342,51 +6338,6 @@ vtex-tachyons@^3.2.0:
   version "3.2.2"
   resolved "https://registry.npmjs.org/vtex-tachyons/-/vtex-tachyons-3.2.2.tgz"
   integrity sha512-4M53uuvV+2XEjplVYiPgpBuaI5dtGksVgz/20NNjbZkXklJM7Lwgod/hOoh3PtIn36+95zZVVgXYfs3e6EU8YA==
-
-"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
-  version "0.4.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles"
-  integrity sha512-QHSMD4rq2nKtJ1f1tH/RPqj4cYu2gKdghYHBdJSYzGh0e7AGD8ByCPzSdHyVnlO2OIRKAAqPHI05baN6neLYFg==
-
-"vtex.order-items@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-items@0.13.23/public/@types/vtex.order-items":
-  version "0.13.23"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-items@0.13.23/public/@types/vtex.order-items"
-  integrity sha512-xHIy+25T61Zth0ZNR3xxyah6weVNu5yLk8ert5JZqJNiG3qDGz/MwRSvtUePLw8ONFOM05+++zVG5RFyFzUzNA==
-
-"vtex.order-manager@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager":
-  version "0.12.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager"
-  integrity sha512-8Za+UO/7k78sn9Q478m7Z9aIzDV/NQRBVNKT7U2iM2rpEuF6irLtrwBlyicEaP0QogSWNtAAY+QekFX7AiPWPA==
-
-"vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context":
-  version "0.10.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.1/public/@types/vtex.product-context"
-  integrity sha512-nd9noja+Rxk1WcS9die0ZB0lhzlYuDBeyzQAdXDkQmEPiZds2jiPNfxefMSJdnh6cgbpUQ4mgQBhhe4m4SD5bA==
-
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime":
-  version "8.134.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime"
-  integrity sha512-lehqsIn8JPh8smXTCCRkgs/8ZJzsZKL0lfd6flq79Itr97tq9toYMXgtsuj9zfh3Mq2lgXCUhc8sPPCzCL5zVA==
-
-"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.58.0/public/@types/vtex.search-graphql":
-  version "0.58.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.58.0/public/@types/vtex.search-graphql"
-  integrity sha512-xldl+7G+T6qsDJFKUg9c/AvglzILXF+dvByyAAtCM8Pmqhb6tA33d+OyGHMyNgKrnPMWMJsogZ8seztz0vkdtg==
-
-"vtex.session-client@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client":
-  version "1.0.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client"
-  integrity sha512-BqVPfeoUbaQUwmf3ydErAVqSiqeCGaQEusVKdH6MuM1vHTh9yq1ZhDgAU/rpFZrHwJBlWFx0U13azObloWsa0Q==
-
-"vtex.slider-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.4/public/@types/vtex.slider-layout":
-  version "0.24.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.slider-layout@0.24.4/public/@types/vtex.slider-layout"
-  integrity sha512-GgYJ2RGKoy2tTBXPGDNE7d1Cmsp01p94BqUdVHiIP++Uso4UiEjhre9f80OVm/qUbx9MvlN0E822ybx8xTfcag==
-
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide":
-  version "9.146.9"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide"
-  integrity sha512-m0goQx6BF9Ne2DfLRdoqJf0NRMfs1kIogbpL4ZQ/3l1UDvVVMT/oqiw7OcMCDMH8YX08h8HV+h98fopqR+y+8A==
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"
