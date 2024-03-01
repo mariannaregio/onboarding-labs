@@ -1,10 +1,9 @@
 import React, { FC } from 'react';
+import { QueryData, NewsletterItem } from './typings/admin';
+import { Layout, PageBlock } from 'vtex.styleguide';
+import NewsletterTable from './AppNewsletter/tableAdmin';
 import { useQuery } from 'react-apollo';
 import GET_EMAILS from './graphql/getNewsletter.gql';
-import { Layout, PageBlock, Table } from 'vtex.styleguide';
-import { QueryData, NewsletterItem } from './typings/admin';
-
-// Tipagens importadas ou definidas anteriormente
 
 
 const AdminExample: FC = () => {
@@ -17,18 +16,6 @@ const AdminExample: FC = () => {
     preferences: newsletter.preferences.join(', '),
   })) || [];
 
-  const tableSchema = {
-    properties: {
-      email: {
-        title: "Email",
-        width: 350,
-      },
-      preferences: {
-        title: "Interesses",
-        width: 350
-      },
-    },
-  };
 
   return (
     <Layout>
@@ -40,12 +27,7 @@ const AdminExample: FC = () => {
         <h1>Emails cadastrados na Newsletter</h1>
         {loading && <div>Carregando...</div>}
         {error && <div>Erro ao buscar os dados.</div>}
-        {!loading && !error && (
-          <Table
-            schema={tableSchema}
-            items={items}
-          />
-        )}
+        {!loading && !error && <NewsletterTable items={items} />}
       </PageBlock>
     </Layout>
   );
